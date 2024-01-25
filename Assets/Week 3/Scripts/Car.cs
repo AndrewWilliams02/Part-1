@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Car : MonoBehaviour
 {
-    public float maxSpeed = 1000;
-    float steeringSpeed = 150, forwardSpeed = 500, steering, acceleration;
+    public float steeringSpeed = 150, forwardSpeed = 500, maxSpeed = 1000;
+    float steering, acceleration;
     Vector2 force;
     Rigidbody2D rigidBody;
     // Start is called before the first frame update
